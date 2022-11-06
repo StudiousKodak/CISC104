@@ -1,0 +1,19 @@
+This is some background on the program.
+
+So my idea was to have a DND style game, however I quickly found I bit off way more than I could chew, so I dumbed down my program a lot... like its
+actually comical some of the ideas I thought I could implement in "short" time.
+
+Overall though, with the help of my prior programming knowledge, I was able to atleast put a good amount of my ideas into fruision.
+
+It works like this...
+A user is created with defaulted basic values for health points, attack, speed, and the number of health potions they have.
+An enemy goblin (default enemy) will be created for the first "battle", 
+You play the game by pressing the continue button to start, than to continue playing through a round
+First a check for speed will happen to see who will attack first, than after that, whoever got attacked, will retaliate and attack back,
+Subtracting HP for each respective health pool as needed
+
+At the end of a battle, if a users health is 40 or below, they will automatically use one of their health potions, 
+addedly the enemies items bonus will be given to the user (Another HP Pot, Increase speed or attack), and the round count will increase
+The user will only be able to spawn another monster to play against, than the cycle repeats until the users health is at 0 or below.
+
+I think theres something broken with it, for some reason, just a gut feeling.
