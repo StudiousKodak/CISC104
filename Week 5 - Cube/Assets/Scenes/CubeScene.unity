@@ -842,7 +842,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465017617}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CubeManager, Assembly-CSharp
         m_MethodName: SliderChanged
         m_Mode: 4
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465017617}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CubeManager, Assembly-CSharp
         m_MethodName: SliderChanged
         m_Mode: 4
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465017617}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CubeManager, Assembly-CSharp
         m_MethodName: SliderChanged
         m_Mode: 4
@@ -1815,8 +1815,8 @@ GameObject:
   - component: {fileID: 1465017616}
   - component: {fileID: 1465017615}
   - component: {fileID: 1465017614}
-  - component: {fileID: 1465017617}
   - component: {fileID: 1465017618}
+  - component: {fileID: 1465017619}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1890,26 +1890,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1465017617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465017613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a3e30b29c892464ba6140bb66a11b52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  heightSlider: {fileID: 791557094}
-  widthSlider: {fileID: 319481086}
-  lengthSlider: {fileID: 1420195315}
-  heightTextObject: {fileID: 923538122}
-  widthTextObject: {fileID: 1326662639}
-  lengthTextObject: {fileID: 1315034300}
-  volumeTextObject: {fileID: 277139143}
-  edgeTextObject: {fileID: 126866273}
 --- !u!114 &1465017618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1922,6 +1902,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d1dc76f84584efab73662eb80ab8ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1465017619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465017613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3e30b29c892464ba6140bb66a11b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heightSlider: {fileID: 0}
+  widthSlider: {fileID: 0}
+  lengthSlider: {fileID: 0}
+  heightTextObject: {fileID: 0}
+  widthTextObject: {fileID: 0}
+  lengthTextObject: {fileID: 0}
+  volumeTextObject: {fileID: 0}
+  edgeTextObject: {fileID: 0}
 --- !u!1 &1501664967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.3
+  m_fontSize: 34.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

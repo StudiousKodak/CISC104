@@ -8,6 +8,7 @@ public class GreenBallCollisionManager : BallCollisionManager
         Debug.Log("Green Ball Collision Manager Function");
 
         // Homework: Do something interesting here
+        OtherBall.transform.localScale = new Vector3(2.0f, 2.0f, 2.0f);
     }
 }
 
